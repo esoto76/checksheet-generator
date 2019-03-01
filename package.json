@@ -1,21 +1,35 @@
 {
   "name": "checksheet-generator",
-  "version": "0.1.0",
+  "version": "0.1.0-beta-0",
   "private": true,
+  "description": "NHHSA Transcript Generator",
+  "author": "Eric Sotomayor",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "electron:build": "vue-cli-service electron:build",
+    "electron:serve": "vue-cli-service electron:serve",
+    "esup": "yarn upgrade && yarn link es-styles esv esv-electron",
+    "postinstall": "yarn esup && electron-builder install-app-deps",
+    "postuninstall": "electron-builder install-app-deps",
+    "start": "vue-cli-service serve --open"
   },
   "dependencies": {
-    "vue": "^2.6.6",
-    "vue-router": "^3.0.1",
-    "vuex": "^3.0.1"
+    "electron-log": "^3.0.1",
+    "electron-updater": "^4.0.6",
+    "vue": "^2.6.7",
+    "vue-router": "^3.0.2",
+    "vuex": "^3.1.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.4.0",
-    "@vue/cli-service": "^3.4.0",
-    "node-sass": "^4.9.0",
+    "@vue/cli-plugin-babel": "^3.4.1",
+    "@vue/cli-service": "^3.4.1",
+    "electron": "^4.0.6",
+    "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
-    "vue-template-compiler": "^2.5.21"
-  }
+    "vue-cli-plugin-electron-builder": "^1.1.0",
+    "vue-template-compiler": "^2.6.7"
+  },
+  "displayName": "cg",
+  "main": "background.js"
 }

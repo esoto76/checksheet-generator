@@ -1,0 +1,46 @@
+$color-html-bg: scale-color(#d6d0cd, $lightness: 60%);
+$color-html: scale-color(#231915, $lightness: -5%);
+$alt-font: "Barlow Condensed", sans-serif;
+$run-breakpoint-build: false;
+
+$colors: (
+  link: #f98152,
+  primary: #231915,
+  secondary: #f98152,
+  tg: (
+    0: #231915,
+    1: #5b463e,
+    2: #e2cac0,
+    3: #d6d0cd,
+    4: #f98152
+  )
+);
+
+$input-box-percentage-widths: all;
+
+$material-design-icon-url: "~es-styles/scss/";
+$material-design-icon-fonts-host: true;
+$app-use: true;
+$color-use-global-class: true;
+$global-fullscreen-use: false;
+$is-device: false;
+$bar-box-use: true;
+$bar-content-use: true;
+$collapse-box-use: true;
+$content-box-use: true;
+$flex-grid-use: true;
+$icon-box-use: true;
+$input-box-use: true;
+$logo-box-use: true;
+$progress-bar-use: false;
+$media-control-ui-use: false;
+$message-box-use: true;
+$modal-use: true;
+$navbar-use: true;
+$navbar-responsive: true;
+$navbox-use: true;
+$overlay-use: true;
+$splash-screen-use: true;
+$volume-slider-use: $media-control-ui-use;
+$volume-tickmark-use: false;
+$page-use: true;
