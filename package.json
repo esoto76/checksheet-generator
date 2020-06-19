@@ -12,6 +12,10 @@
   "start": "vue-cli-service serve --open"
  },
  "dependencies": {
+  "auto-changelog": "^2.1.0",
+  "gsap": "^3.3.3",
+  "moment": "^2.27.0",
+  "tailwindcss": "^1.4.6",
   "vue": "^2.6.11",
   "vue-router": "^3.3.4",
   "vuex": "^3.4.0"
