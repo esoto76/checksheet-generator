@@ -10,7 +10,7 @@
   "es:link": "npm link es-styles esv",
   "postinstall": "npm run es:link",
   "start": "vue-cli-service serve --open",
-  "clog": "auto-changelog --commit-limit false -p -u  -t keepachangelog  --sort-commits date-desc --release-summary",
+  "clog": "auto-changelog --commit-limit false -p -u  -t keepachangelog  --sort-commits date-desc --release-summary"
  },
  "dependencies": {
   "auto-changelog": "^2.1.0",
