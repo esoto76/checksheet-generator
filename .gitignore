@@ -1,8 +1,13 @@
 .DS_Store
 node_modules
 /dist
+/_configs
+/_tailwinds/colors/temp.js
+package-lock.json
 
 # local env files
+.env
+.env.*
 .env.local
 .env.*.local
 
@@ -18,7 +23,37 @@ yarn-error.log*
 *.ntvs*
 *.njsproj
 *.sln
-*.sw*
+*.sw?
+*.csv
 
-#Electron-builder output
-/dist_electron
+#amplify
+amplify/\#current-cloud-backend
+amplify/.config/local-*
+amplify/mock-data
+amplify/backend/amplify-meta.json
+amplify/backend/awscloudformation
+build/
+dist/
+node_modules/
+aws-exports.js
+awsconfiguration.json
+amplifyconfiguration.json
+amplify-gradle-config.json
+amplifyxc.config
+tailwind-default.config.js
+
+#amplify
+amplify/\#current-cloud-backend
+amplify/.config/local-*
+amplify/mock-data
+amplify/backend/amplify-meta.json
+amplify/backend/awscloudformation
+build/
+dist/
+node_modules/
+aws-exports.js
+awsconfiguration.json
+amplifyconfiguration.json
+amplify-build-config.json
+amplify-gradle-config.json
+amplifyxc.config
