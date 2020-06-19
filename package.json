@@ -1,6 +1,6 @@
 {
   "name": "checksheet-generator",
-  "version": "0.1.0-beta-0",
+  "version": "0.0.0",
   "private": true,
   "description": "NHHSA Transcript Generator",
   "author": "Eric Sotomayor",
@@ -15,21 +15,31 @@
     "start": "vue-cli-service serve --open"
   },
   "dependencies": {
-    "electron-log": "^3.0.1",
-    "electron-updater": "^4.0.6",
-    "vue": "^2.6.7",
-    "vue-router": "^3.0.2",
-    "vuex": "^3.1.0"
+    "vue": "^2.6.11",
+    "vue-router": "^3.3.4",
+    "vuex": "^3.4.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.4.1",
-    "@vue/cli-service": "^3.4.1",
-    "electron": "^4.0.6",
-    "node-sass": "^4.11.0",
-    "sass-loader": "^7.1.0",
-    "vue-cli-plugin-electron-builder": "^1.1.0",
-    "vue-template-compiler": "^2.6.7"
+    "@vue/cli-plugin-babel": "^4.4.4",
+    "@vue/cli-service": "^4.4.4",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
   },
   "displayName": "cg",
-  "main": "background.js"
+  "main": "background.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esoto76/checksheet-generator.git"
+  },
+  "keywords": [
+    "NHHSA",
+    "checksheet",
+    "generator"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/esoto76/checksheet-generator/issues"
+  },
+  "homepage": "https://github.com/esoto76/checksheet-generator#readme"
 }
