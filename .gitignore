@@ -57,3 +57,5 @@ amplifyconfiguration.json
 amplify-build-config.json
 amplify-gradle-config.json
 amplifyxc.config
+#Electron-builder output
+/dist_electron
