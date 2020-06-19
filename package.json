@@ -7,8 +7,8 @@
  "scripts": {
   "serve": "vue-cli-service serve",
   "build": "vue-cli-service build",
-  "esup": "npm link es-styles esv",
-  "postinstall": "npm run esup",
+  "es:link": "npm link es-styles esv",
+  "postinstall": "npm run es:link",
   "start": "vue-cli-service serve --open"
  },
  "dependencies": {
@@ -21,9 +21,17 @@
   "vuex": "^3.4.0"
  },
  "devDependencies": {
-  "@vue/cli-plugin-babel": "^4.4.4",
-  "@vue/cli-service": "^4.4.4",
+  "@fullhuman/postcss-purgecss": "^2.3.0",
+  "@tailwindcss/custom-forms": "^0.2.1",
+  "@vue/cli-plugin-babel": "~4.4.4",
+  "@vue/cli-plugin-pwa": "~4.4.4",
+  "@vue/cli-plugin-router": "~4.4.4",
+  "@vue/cli-plugin-vuex": "~4.4.4",
+  "@vue/cli-service": "~4.4.4",
+  "fibers": "^5.0.0",
   "node-sass": "^4.14.1",
+  "postcss-import": "^12.0.1",
+  "postcss-nested": "^4.2.1",
   "sass-loader": "^8.0.2",
   "vue-template-compiler": "^2.6.11"
  },
