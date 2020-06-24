@@ -1,60 +1,60 @@
 {
-  "name": "checksheet-generator",
-  "version": "0.0.0",
-  "private": true,
-  "description": "NHHSA Transcript Generator",
-  "author": "Eric Sotomayor",
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "clog": "auto-changelog --commit-limit false -p -u  -t keepachangelog  --sort-commits date-desc --release-summary",
-    "electron:build": "vue-cli-service electron:build",
-    "electron:serve": "vue-cli-service electron:serve",
-    "es:link": "npm link es-styles esv",
-    "postinstall": "npm run es:link && electron-builder install-app-deps",
-    "postuninstall": "electron-builder install-app-deps",
-    "start": "vue-cli-service serve --open"
-  },
-  "main": "background.js",
-  "dependencies": {
-    "auto-changelog": "^2.1.0",
-    "gsap": "^3.3.3",
-    "moment": "^2.27.0",
-    "tailwindcss": "^1.4.6",
-    "vue": "^2.6.11",
-    "vue-router": "^3.3.4",
-    "vuex": "^3.4.0"
-  },
-  "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^2.3.0",
-    "@tailwindcss/custom-forms": "^0.2.1",
-    "@vue/cli-plugin-babel": "~4.4.4",
-    "@vue/cli-plugin-pwa": "~4.4.4",
-    "@vue/cli-plugin-router": "~4.4.4",
-    "@vue/cli-plugin-vuex": "~4.4.4",
-    "@vue/cli-service": "~4.4.4",
-    "electron": "^9.0.4",
-    "fibers": "^5.0.0",
-    "node-sass": "^4.14.1",
-    "postcss-import": "^12.0.1",
-    "postcss-nested": "^4.2.1",
-    "sass-loader": "^8.0.2",
-    "vue-cli-plugin-electron-builder": "~2.0.0-rc.2",
-    "vue-template-compiler": "^2.6.11"
-  },
-  "bugs": {
-    "url": "https://github.com/esoto76/checksheet-generator/issues"
-  },
-  "displayName": "cg",
-  "homepage": "https://github.com/esoto76/checksheet-generator#readme",
-  "keywords": [
-    "NHHSA",
-    "checksheet",
-    "generator"
-  ],
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/esoto76/checksheet-generator.git"
-  }
+ "name": "checksheet-generator",
+ "version": "0.0.1",
+ "private": true,
+ "description": "NHHSA Transcript Generator",
+ "author": "Eric Sotomayor",
+ "scripts": {
+  "serve": "vue-cli-service serve",
+  "build": "vue-cli-service build",
+  "clog": "auto-changelog --commit-limit false -p -u  -t keepachangelog  --sort-commits date-desc --release-summary",
+  "electron:build": "vue-cli-service electron:build",
+  "electron:serve": "vue-cli-service electron:serve",
+  "es:link": "npm link es-styles esv",
+  "postinstall": "npm run es:link && electron-builder install-app-deps",
+  "postuninstall": "electron-builder install-app-deps",
+  "start": "vue-cli-service serve --open"
+ },
+ "main": "background.js",
+ "dependencies": {
+  "auto-changelog": "^2.1.0",
+  "gsap": "^3.3.4",
+  "moment": "^2.27.0",
+  "tailwindcss": "^1.4.6",
+  "vue": "^2.6.11",
+  "vue-router": "^3.3.4",
+  "vuex": "^3.4.0"
+ },
+ "devDependencies": {
+  "@fullhuman/postcss-purgecss": "^2.3.0",
+  "@tailwindcss/custom-forms": "^0.2.1",
+  "@vue/cli-plugin-babel": "~4.4.5",
+  "@vue/cli-plugin-pwa": "~4.4.5",
+  "@vue/cli-plugin-router": "~4.4.5",
+  "@vue/cli-plugin-vuex": "~4.4.5",
+  "@vue/cli-service": "~4.4.5",
+  "electron": "^9.0.5",
+  "fibers": "^5.0.0",
+  "node-sass": "^4.14.1",
+  "postcss-import": "^12.0.1",
+  "postcss-nested": "^4.2.1",
+  "sass-loader": "^8.0.2",
+  "vue-cli-plugin-electron-builder": "~2.0.0-rc.2",
+  "vue-template-compiler": "^2.6.11"
+ },
+ "bugs": {
+  "url": "https://github.com/esoto76/checksheet-generator/issues"
+ },
+ "displayName": "cg",
+ "homepage": "https://github.com/esoto76/checksheet-generator#readme",
+ "keywords": [
+  "NHHSA",
+  "checksheet",
+  "generator"
+ ],
+ "license": "ISC",
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/esoto76/checksheet-generator.git"
+ }
 }
