@@ -1,7 +1,7 @@
 <template>
   <div id="esv">
     <div class="content-bx">
-    <router-view/>
+      <router-view />
     </div>
   </div>
 </template>
